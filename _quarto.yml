@@ -1,0 +1,38 @@
+project:
+  type: website
+  resources:
+    - CNAME
+  output-dir: docs
+
+execute:
+    freeze: auto
+
+website:
+  title: "ECLIPSE Lab"
+  navbar:
+    background: primary
+    right:
+      - href: news.qmd
+        text: News
+      - href: people.qmd
+        text: People
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: resources.qmd
+        text: Resources
+      - href: opportunities.qmd
+        text: Opportunities
+      - href: contact.qmd
+        text: Contact
+  page-footer: "Copyright 2023 &copy; Philipp Pelz"
+  google-analytics: "G-K5TXS64QLN"
+  site-url: https://ECLIPSE.ku.edu
+  repo-url: https://github.com/jmgirard/ECLIPSElab
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
