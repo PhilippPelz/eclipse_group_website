@@ -14,74 +14,39 @@ toc: true
 
 ## Research Topics
 
-### Clinical Topics
+### 4D-STEM method development
 
-- **Behavioral synchrony** – We are interested in studying the emergence of behavioral synchronization between members of interacting dyads (e.g., therapists and patients or parents and children). We are applying this to studying the development of the working alliance (i.e., therapeutic relationship) during psychotherapy for depression and the communication dynamics between parents and children at high risk of suicide. As part of this effort, we are working on creating an R package for the windowed cross-correlation technique for quantifying behavioral synchrony ([Boker et al., 2002](https://doi.org/10/dzffkm)).
+- **Large-scale dose-efficient 3D imaging** – We are leaders in development of 3D imaging methods based on 4D-STEM measurements. We have produced the first atomic-resolution 3D volumes from 4D-STEM tomography and are working on scaling to very large samples.
 
-### Methodological Topics
+- **Fast simulators for electron microscopy** We are developing fast simulators for electron microscopy 
 
-- **Interrater reliability statistics** – We are interested in developing statistical techniques that quantify the degree of reliability (e.g., agreement or consistency) between raters in observational and judgment studies. As part of this effort, we are working on finalizing the [agreement](https://github.com/jmgirard/agreement) R package for chance-adjusted indexes of categorical agreement and are working on integrating insights and tools from Bayesian statistics and generalizability theory in the [varde](https://github.com/jmgirard/varde) R pacakge.
+### Multi-modal microscopy
 
+Stay tuned
+
+### Self-driving equipment
+
+Stay tuned
 
 
 ## Research Funding
 
 ### Current Funding
 
-- *"Novel Scalable Mental Health Screening Procedures on Ubiquitous Sensing Devices"*
-    - Gift, Google LLC
-    - **Girard** (PI)
-    - 11/2022
-
-- *"Context-Adaptive Multimodal Informatics for Psychiatric Discharge Planning"*
-    - R01, National Institutes of Health (NIMH)
-    - Baker (PI), Co-Is: **Girard**, Morency
-    - 04/2021 – 02/2025
-    
-- *"Multimodal Dynamics of Parent-Child Interactions and Suicide Risk"*
-    - R21, National Institutes of Health (NIMH)
-    - Burke (PI), Co-Is: **Girard**, Li, Morency
-    - 09/2022 – 07/2023
+- *"ScatterEM: Utilizing scattering to enhance throughput and sensitivity in electron microscopy"*
+    - EAM Starting grant
+    - **Pelz** (PI)
+    - 01/2023
 
 ### Completed Funding
 
-- *"Towards Automated Multimodal Behavioral Screening for Depression"*
-    - Pittsburgh Health Data Alliance (CMLH)
-    - Morency (PI), Co-I: **Girard**
-    - 03/2019 – 02/2021
-    
-- *"Dyadic Behavior Informatics for Psychotherapy Process and Outcome"*
-    - National Science Foundation (IIS, SCH)
-    - Cohn, Morency, Swartz (PIs), Co-Is: Bylsma, Fournier, **Girard**
-    - 09/2020 – 08/2022
-
-### Pending Funding
-
-- *"Patient-focused Prediction of Dropout from PTSD Treatment"*
-    - R21, National Institutes of Health (NIMH)
-    - **Girard** (PI), Co-I: Sprunger
-    - Not Scored, Currently in Revision
-
-- *"Naturalistic Probe for Dynamic Assessment of Emotional Reactivity"*
-    - R01, National Institutes of Health (NIMH)
-    - Liebenthal (PI), Co-Is: **Girard**, Tie 
-    - Currently in Review
-    
-- *"Dyadic Communication Dynamics in Hybrid In-Person/Remote Psychotherapy"*
-    - R01, National Institutes of Health (NIMH)
-    - **Girard** (PI), Co-Is: Bylsma, Cohn, Ilardi, Morency, Swartz
-    - Scored 39th Percentile, Currently in Revision (to resubmit in March)
 
 ## Research Framework
 
-### Affective Communication
+### Holistic microscopy - using as much of the scattering information as possible
 
-The substantive focus of our work is on how humans communicate important affective (e.g., emotional) information to one another. The four pillars of this work are on structure, context, dynamics, and functionality. In studying the **structure** of affective communication, we investigate the production and perception of visual behaviors (e.g., facial expressions, gestures, and body motion), vocal behaviors (e.g., pitch, loudness, and timbre), and verbal behaviors (e.g., syntax, semantics, and discourse). In studying the **context** of affective communication, we investigate the influence of the immediate and distal sociocultural environment. In studying the **dynamics** of affective communication, we investigate the unfolding of emotion, behavior, and the interpersonal field over time. Finally, in studying the **functionality** of affective communication, we investigate its relationships with mental health, pathology, and recovery.
+The substantive focus of our work is on incorporating prior physical knowledge about scattering mechanisms and multiple signal channels into the image reconstruction.
 
-![](./img/framework1.png)
+### ML-driven microscopy
 
-### Affective Computing
-
-Supporting the four pillars of substantive research described above is a methodological foundation of computer and data science. The three main aspects of this methodological work are statistics, computing, and design. The **statistical** aspects largely focus on developing and applying Bayesian, multilevel, and latent variable models to test hypotheses about interpretable parameters or validate the other aspects. The **computational** aspects largely focus on building tools to collect large amounts of data and then using machine learning to process that data and make predictions. Finally, the **design** aspects largely focus on developing software to collect, process, and analyze research data as well as websites to educate researchers on methodological and substantive topics.
-
-![](./img/framework2.png)
+We use modern machine learning tools to make microscopy faster and better

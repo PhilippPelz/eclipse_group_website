@@ -28,8 +28,6 @@ website:
         text: Contact
   page-footer:    
     background: "#000000"
-    left: 
-      -image: 
     center: 
       - text: "Imprint"
         href: about.qmd

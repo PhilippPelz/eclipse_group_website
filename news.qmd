@@ -6,7 +6,9 @@ listing:
   sort: "date desc"
   type: default
   categories: true
----``{=html}
+---
+
+```{=html}
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
