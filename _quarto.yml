@@ -9,6 +9,7 @@ execute:
 
 website:
   title: "ECLIPSE Lab"
+  favicon: favicon-32x32.png
   navbar:
     background: primary
     right:
@@ -35,7 +36,7 @@ website:
         href: license.qmd
       - text: "Accesibility"
         href: trademark.qmd
-  # google-analytics: "G-K5TXS64QLN"
+  google-analytics: "G-TVZKKP7YNR"
   site-url: https://ECLIPSE.ku.edu
   repo-url: https://github.com/PhilippPelz/ECLIPSElab
 
