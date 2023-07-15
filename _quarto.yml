@@ -37,7 +37,7 @@ website:
       - text: "Accesibility"
         href: trademark.qmd
   google-analytics: "G-TVZKKP7YNR"
-  site-url: https://ECLIPSE.ku.edu
+  site-url: https://pelzlab.science
   repo-url: https://github.com/PhilippPelz/ECLIPSElab
 
 format:

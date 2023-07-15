@@ -1,5 +1,5 @@
 ---
-title: "International Microscopy Congress 2023"
+title: "MRS Fall 2023 conference"
 description: "Philipp will attend the MRS Fall 2023 conference in Boston, US and give an invited talk in the session 'CH04: Emerging Electron Microscopy Techniques to Understand Structure-Property Relationship in Quantum Materials'."
 author: "Philipp Pelz"
 date: "2023-04-11"
